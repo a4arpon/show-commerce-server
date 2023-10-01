@@ -1,0 +1,56 @@
+{
+  "name": "show-commerce",
+  "version": "1.0.0",
+  "description": "show-commerce Server backend",
+  "main": "index.js",
+  "repository": "https://github.com/a4arpon/show-commerce-server",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "rm -rf ./dist && tsc",
+    "dev": "nodemon ./src/app.ts",
+    "lint:check": "eslint . --ext .js,.ts --config .eslintrc.json",
+    "lint:fix": "eslint . --ext .js,.ts --fix --config .eslintrc.json",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "prepare": "husky install",
+    "up": "bash upgrade.sh"
+  },
+  "author": "Dev Arpon",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/hpp": "^0.2.2",
+    "@types/morgan": "^1.9.5",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "^39.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": ".husky/pre-commit"
+    }
+  }
+}
