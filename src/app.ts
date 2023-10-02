@@ -34,7 +34,7 @@ class App {
 
   private setupRoutes(): void {
     this.app.get('/', (req: Request, res: Response) => {
-      res.status(200).send('Server running online. Are you ready to handle?')
+      res.status(200).send('Server online. Are you ready to handle?')
     })
     this.app.use('/api/products', productsRouter)
   }
