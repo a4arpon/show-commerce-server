@@ -1,61 +1,62 @@
 [
   {
-    "_id": "1234567890",
-    "name": "Hamburger Couple",
-    "photoUrl": "https://example.com/hamburger_couple.jpg",
-    "price": 20.0,
-    "quantity": 1,
-    "size": "Couple",
-    "quality": 5,
-    "tax": 2.0,
-    "optional": [
-      {
-        "_id": "9876543210",
-        "name": "French Fries",
-        "price": 5.0,
-        "image": "https://example.com/french_fries.jpg"
-      },
-      {
-        "_id": "1111111111",
-        "name": "Coke",
-        "price": 3.0,
-        "image": "https://example.com/coke.jpg"
-      }
-    ]
-  },
-  {
-    "_id": "9876543210",
-    "name": "Chicken Nuggets Friends Bucket",
-    "photoUrl": "https://example.com/chicken_nuggets_friends_bucket.jpg",
-    "price": 30.0,
-    "quantity": 1,
-    "size": "Friends Bucket",
+    "_id": "trwejoifj4rf4r",
+    "name": "Custom Printed T-Shirt",
+    "photoUrl": "https://i.pinimg.com/564x/b1/26/84/b12684f35db9e5145f1dd69fdd6e25c7.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/8f/23/aa/8f23aa905da1e1a51dca474f2ca53699.jpg",
+    "price": 20,
     "quality": 4,
-    "tax": 3.0,
-    "optional": []
-  },
-  {
-    "_id": "1111111111",
-    "name": "Family Packet Pizza",
-    "photoUrl": "https://example.com/family_packet_pizza.jpg",
-    "price": 40.0,
-    "quantity": 1,
-    "size": "Family Packet",
-    "quality": 3,
-    "tax": 4.0,
+    "tax": 1,
     "optional": [
       {
-        "_id": "2222222222",
-        "name": "Soda",
-        "price": 2.0,
-        "image": "https://example.com/soda.jpg"
-      },
-      {
-        "_id": "3333333333",
-        "name": "Dessert",
-        "price": 5.0,
-        "image": "https://example.com/dessert.jpg"
+        "_id": "2",
+        "name": "Iron-on Patch",
+        "price": 5
       }
     ]
+  },
+  {
+    "_id": "3fwe4e5r23rdedc",
+    "name": "Custom Printed Hoodie",
+    "photoUrl": "https://i.pinimg.com/564x/f3/fc/2e/f3fc2eea7830461e688f0263db22875f.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/8b/c7/c9/8bc7c9e3af184b8634035ddc3d110cf1.jpg",
+    "price": 30,
+    "quality": 5,
+    "tax": 2,
+    "optional": [
+      {
+        "_id": "4",
+        "name": "Printed Sleeves",
+        "price": 10,
+        "image": "https://i.pinimg.com/564x/77/89/57/778957d258c27712c86e368fb1bbed94.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "567890-abcde",
+    "name": "Custom Printed Tote Bag",
+    "photoUrl": "https://i.pinimg.com/736x/95/0e/52/950e52958db5fe93dcdb1a0f93d73d43.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/7d/3c/de/7d3cde0c7efda81cc3b2db8bd984cb7b.jpg",
+    "price": 15,
+    "quality": 4,
+    "tax": 1,
+    "optional": [
+      {
+        "_id": "7",
+        "name": "Printed Design",
+        "price": 10,
+        "image": "https://i.pinimg.com/736x/ae/4e/23/ae4e2387c6b08a51e51746d1db9caaef.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "567890-coffee-mug",
+    "name": "Custom Printed Coffee Mug",
+    "photoUrl": "https://i.pinimg.com/564x/c0/02/5d/c0025d19c2cb9aaa1eaf486805abdebc.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/38/f5/dc/38f5dc93c379a331ad13b6bc5e7277dc.jpg",
+    "price": 15,
+    "quality": 4,
+    "tax": 1,
+    "optional": []
   }
 ]
