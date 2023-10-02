@@ -7,7 +7,7 @@
       "config": { "includeFiles": ["dist/**"] }
     }
   ],
-  "buildCommand": "rm -rf src && yarn prod",
+  "buildCommand": "yarn prod",
   "outputDirectory": "dist",
   "routes": [
     {
