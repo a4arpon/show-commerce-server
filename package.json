@@ -6,7 +6,7 @@
   "repository": "https://github.com/a4arpon/show-commerce-server",
   "scripts": {
     "start": "node ./dist/app.js",
-    "prod": "yarn run build && node ./dist/app.js",
+    "prod": "node ./dist/app.js",
     "build": "rm -rf ./dist && tsc",
     "dev": "nodemon ./src/app.ts",
     "lint:check": "eslint . --ext .js,.ts --config .eslintrc.json",
