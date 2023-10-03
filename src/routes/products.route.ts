@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import productsController from '../controllers/products.controller'
+import ProductsController from '../controllers/products.controller'
 
 const productsRouter = Router()
-const productsInstance = new productsController()
+const productsInstance = new ProductsController()
 
 productsRouter.get('/', productsInstance.allProducts)
 

@@ -8,6 +8,7 @@
     }
   ],
   "buildCommand": "yarn prod",
+  "installCommand": "yarn install && yarn build",
   "outputDirectory": "dist",
   "routes": [
     {

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const error_1 = require("../errors/error");
 const dummyData_json_1 = __importDefault(require("../utils/dummyData.json"));
 const products = dummyData_json_1.default;
-class productsController {
+class ProductsController {
     constructor() { }
     async allProducts(req, res) {
         try {
@@ -31,4 +31,4 @@ class productsController {
         }
     }
 }
-exports.default = productsController;
+exports.default = ProductsController;

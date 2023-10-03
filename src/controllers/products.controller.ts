@@ -5,7 +5,7 @@ import data from '../utils/dummyData.json'
 
 const products = data as productType[]
 
-export default class productsController {
+export default class ProductsController {
   constructor() {}
 
   public async allProducts(req: Request, res: Response): Promise<void> {
