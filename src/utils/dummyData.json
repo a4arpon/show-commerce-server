@@ -58,5 +58,72 @@
     "quality": 4,
     "tax": 1,
     "optional": []
+  },
+  {
+    "_id": "789012-klmno",
+    "name": "Custom Printed Phone Case",
+    "photoUrl": "https://i.pinimg.com/564x/3c/b3/66/3cb366343a39da157711d9fa67fd308a.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/14/a6/3e/14a63e0c17c3cc827b30103d90a5b51c.jpg",
+    "price": 12,
+    "quality": 5,
+    "tax": 1.5,
+    "optional": [
+      {
+        "_id": "8",
+        "name": "Custom 3D Design",
+        "price": 8,
+        "image": "https://i.pinimg.com/564x/8a/b8/0d/8ab80df430029a76a250253465a311f6.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "456789-pqrst",
+    "name": "Custom Printed Youth Backpack",
+    "photoUrl": "https://i.pinimg.com/564x/ac/fb/c4/acfbc411f6cb77845e1683e91a6c6eb0.jpg",
+    "rawPhoto": "https://i.pinimg.com/564x/4e/62/99/4e629974027ef71718cfbe0d14217d7f.jpg",
+    "price": 25,
+    "quality": 4.5,
+    "tax": 2,
+    "optional": [
+      {
+        "_id": "10",
+        "name": "Custom Embroidery",
+        "price": 15,
+        "image": "https://i.pinimg.com/564x/c5/a0/6f/c5a06f47dde2ad74c8f7c2da3a609845.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "234567-uvwxy",
+    "name": "Youth Graphic Printed Sweatshirt",
+    "photoUrl": "https://i.pinimg.com/564x/d2/8e/1d/d28e1df08a5a5ece4785ed7d0b338c91.jpg",
+    "rawPhoto": "https://i.pinimg.com/736x/c8/4a/85/c84a8505151276ce3d11c0b8c0dd703c.jpg",
+    "price": 18,
+    "quality": 4.8,
+    "tax": 1.2,
+    "optional": []
+  },
+  {
+    "_id": "345678-vwxyz",
+    "name": "Youth Custom Printed Water Bottle",
+    "photoUrl": "https://i.pinimg.com/564x/71/61/72/71617282bbcb11fcddfb9b90b0ee958d.jpg",
+    "rawPhoto": "https://i.pinimg.com/736x/74/7b/96/747b9609ea2eb708c11e49321283b792.jpg",
+    "price": 12,
+    "quality": 4.6,
+    "tax": 1.2,
+    "optional": [
+      {
+        "_id": "13",
+        "name": "Personalized Name",
+        "price": 5,
+        "image": "https://i.pinimg.com/736x/8c/a3/4c/8ca34c4ee18a7c876c5c066a3e140f31.jpg"
+      },
+      {
+        "_id": "14",
+        "name": "Color Options",
+        "price": 3,
+        "image": "https://i.pinimg.com/736x/ef/25/61/ef2561e64be637f059a63a20e1c020c4.jpg"
+      }
+    ]
   }
 ]

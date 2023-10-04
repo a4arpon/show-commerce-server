@@ -27,7 +27,7 @@ class App {
         this.app.use((0, hpp_1.default)());
         this.app.use((0, express_rate_limit_1.default)({
             windowMs: 10 * 60 * 1000,
-            max: 50,
+            max: 100,
         }));
     }
     setupRoutes() {
