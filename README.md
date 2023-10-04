@@ -1,4 +1,5 @@
 # Show Commerce Server
+
 Show Commerce is an innovative e-commerce platform that empowers users to create and order customized printed products. Whether you're looking for personalized apparel, unique accessories, or customized promotional items, our platform provides you with a seamless experience to bring your creative ideas to life.
 
 # [Client Side](https://show-commerce-client.vercel.app/): https://show-commerce-client.vercel.app/
